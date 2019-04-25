@@ -80,8 +80,8 @@ class hello_Dialog1(QtWidgets.QMainWindow):
                     # 判断电话号码是否合法
                     if re.match(r"^\w+$", regiser_passwd):
                         # 判断密码是否合法
-                        db = pymysql.Connect(host="224f749b10.iok.la", port=63306, user="root", password="123",
-                                             charset="utf8", db="test")
+                        db = pymysql.Connect(host="**", port=**, user="**", password="**",
+                                             charset="utf8", db="**")
                         cursor = db.cursor()
                         try:
 
