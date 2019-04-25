@@ -39,8 +39,8 @@ class MainCode(QMainWindow, Login_UI.Ui_MainWindow):
                 if re.match(r"^\w+$", login_password):
                     # 判断密码是否合法
                     passwd = hashlib.md5(login_password.encode(encoding='UTF-8')).hexdigest()
-                    db = pymysql.Connect(host="224f749b10.iok.la", port=63306, user="root", password="123",
-                                         charset="utf8", db="test")
+                    db = pymysql.Connect(host="**", port=**, user="**", password="**",
+                                         charset="utf8", db="**")
                     cursor = db.cursor()
                     # 尝试和数据库建立连接
                     try:
